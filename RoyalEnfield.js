@@ -12,7 +12,7 @@ let img;
  // Load the model first
  function preload() {
      classifier = ml5.imageClassifier(imageModelURL + 'model.json');
-     img = loadImage('data/logo.jpg');
+     img = loadImage('data/logo.png');
  }
 
 function setup() {
