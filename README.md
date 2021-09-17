@@ -1,14 +1,17 @@
-# A Visual Manual using Teachable Machine for phones
-An experimental visual manual of the Royal Enfield motorbike made with p5js and teachable machine for the mobile phone. Tested successfully in Chrome for Android.
-<br/><br/>Usage:
-1. Host index.html in a server in the same Wifi as your phone. 
-2. In chrome for Android, got to chrome://flags . Search for insecure origins treated as secure and enter the IP address of the hosted server where index.html is present. Select "enabled" and press "Relaunch".
-( *Please make sure you disable this after the experiment.* )
-3. Finally, open the server address in the mobile browser.
-<br/><br/><br/>
-Demo Video:<br/>
-https://youtu.be/jfxIOMYFcZg
+# Teachable Machine yordamida yaratilgan modelni mobil ilovaga aylantirish
+<br/><br/>Foydalanish uchun:
+1. Ushbu reponi kompyuterga yuklab oling
+2. Teachable Machien sahifasida model yarating va upload qiling
+3. app.js faylini oching va let imageModelURL="" qo'shtirnoq ichida modelga link bering
+4. Windows Powershell dasturida repo yuklab olingan papkaga kiring va python -m https.server 8013 komandasini ishga tushuring
+5. Chrome brauzerda chrome://flags sahifasiga kiring va insecure origins deb qidiring, yangi oynada kompyutering IP manzili va 8013 portni ko'rsating, Enabled qiling ba Relaunch tugmasini bosing:
+[Imgur](https://i.imgur.com/EbKWJkW.jpg)
+7. Chromee brauzerda http://<ip_manzil>:8013 manziliga kiring
+
+Video:<br/>
+
 <br/><br/><br/>
 Thanks to:
+- nurecas/visualmanual
 - Teachable Machine : https://teachablemachine.withgoogle.com/
 - P5JS : https://p5js.org/
